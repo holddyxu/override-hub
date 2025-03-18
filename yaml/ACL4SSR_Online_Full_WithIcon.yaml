@@ -347,7 +347,7 @@ proxy-groups:
   - name: 加村节点 
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Canada.png
     include-all: true
-    filter: (?i)加|加拿大|加村|蒙特利尔|温哥华|多伦多|渥太华|卡尔加里|CA|Canada 
+    filter: (?i)加拿大|加村|蒙特利尔|温哥华|多伦多|渥太华|卡尔加里|CA|Canada 
     type: url-test
     interval: 300
     tolerance: 50
@@ -355,7 +355,7 @@ proxy-groups:
   - name: 南美节点 
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/America_Map.png
     include-all: true
-    filter: (?i)南美|阿根廷|布宜诺斯艾利斯|巴西|圣保罗|里约|智利|圣地亚哥|秘鲁|利马
+    filter: (?i)南美|阿根廷|布宜诺斯艾利斯|巴西|圣保罗|里约|智利|圣地亚哥|秘鲁|利马|AG|BZ|CH
     type: url-test
     interval: 300
     tolerance: 50
@@ -363,7 +363,7 @@ proxy-groups:
   - name: 欧洲节点 
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
     include-all: true
-    filter: (?i)欧|欧洲|英国|伦敦|利物浦|法国|巴黎|马赛|德国|柏林|慕尼黑|西班牙|马德里|意大利|罗马|米兰
+    filter: (?i)欧|欧洲|英国|伦敦|利物浦|法国|巴黎|马赛|德国|柏林|慕尼黑|西班牙|马德里|意大利|罗马|米兰|GK|FR|GE|SP|IT
     type: url-test
     interval: 300
     tolerance: 50
@@ -371,7 +371,7 @@ proxy-groups:
   - name: 非洲节点 
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Africa.png
     include-all: true
-    filter: (?i)非洲|南非|约翰内斯堡|开普敦|刚果|肯尼亚|内罗毕
+    filter: (?i)非洲|南非|约翰内斯堡|开普敦|刚果|肯尼亚|内罗毕|ZA|KI
     type: url-test
     interval: 300
     tolerance: 50
@@ -379,7 +379,7 @@ proxy-groups:
   - name: 澳洲节点 
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Australia.png
     include-all: true
-    filter: (?i)澳洲|澳大利亚|悉尼|墨尔本|布里斯班|新西兰|奥克兰|惠灵顿
+    filter: (?i)澳洲|澳大利亚|悉尼|墨尔本|布里斯班|新西兰|奥克兰|惠灵顿|AU|NZ
     type: url-test
     interval: 300
     tolerance: 50
