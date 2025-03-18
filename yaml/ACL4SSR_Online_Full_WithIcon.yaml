@@ -50,8 +50,6 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Bot.png
     type: select
     proxies:
-      - 节点选择
-      - 自动选择
       - 狮城节点
       - 台湾节点
       - 日本节点
@@ -62,6 +60,8 @@ proxy-groups:
       - 南美节点
       - 澳洲节点
       - 非洲节点
+      - 节点选择
+      - 自动选择
       - 手动切换
       - DIRECT
   - name: 油管视频
