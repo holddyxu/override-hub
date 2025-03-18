@@ -10,6 +10,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: 手动切换
@@ -34,6 +39,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: OpenAi
@@ -43,11 +53,15 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 狮城节点
-      - 香港节点
       - 台湾节点
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: 油管视频
@@ -62,6 +76,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: 奈飞视频
@@ -77,6 +96,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: 巴哈姆特
@@ -106,6 +130,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
       - DIRECT
   - name: 国内媒体
@@ -130,6 +159,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 微软Bing
     icon: https://testingcf.jsdelivr.net/gh/shindgewongxj/WHATSINStash@master/icon/bing.png
@@ -143,6 +177,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 微软云盘
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/OneDrive.png
@@ -156,6 +195,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 微软服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
@@ -169,6 +213,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 苹果服务
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Apple.png
@@ -182,6 +231,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 游戏平台
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Game.png
@@ -195,6 +249,11 @@ proxy-groups:
       - 狮城节点
       - 日本节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 网易音乐
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
@@ -237,6 +296,11 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 手动切换
   - name: 香港节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hong_Kong.png
@@ -280,6 +344,46 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 加村节点 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Canada.png
+    include-all: true
+    filter: (?i)加|加拿大|加村|蒙特利尔|温哥华|多伦多|渥太华|卡尔加里|CA|Canada 
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 南美节点 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/America_Map.png
+    include-all: true
+    filter: (?i)南美|阿根廷|布宜诺斯艾利斯|巴西|圣保罗|里约|智利|圣地亚哥|秘鲁|利马
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 欧洲节点 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/European_Union.png
+    include-all: true
+    filter: (?i)欧|欧洲|英国|伦敦|利物浦|法国|巴黎|马赛|德国|柏林|慕尼黑|西班牙|马德里|意大利|罗马|米兰
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 非洲节点 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Africa.png
+    include-all: true
+    filter: (?i)非洲|南非|约翰内斯堡|开普敦|刚果|肯尼亚|内罗毕
+    type: url-test
+    interval: 300
+    tolerance: 50
+
+  - name: 澳洲节点 
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Australia.png
+    include-all: true
+    filter: (?i)澳洲|澳大利亚|悉尼|墨尔本|布里斯班|新西兰|奥克兰|惠灵顿
+    type: url-test
+    interval: 300
+    tolerance: 50
+
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -318,6 +422,11 @@ proxy-groups:
       - 台湾节点
       - 狮城节点
       - 韩国节点
+      - 加村节点
+      - 欧洲节点
+      - 南美节点
+      - 澳洲节点
+      - 非洲节点
       - 奈飞节点
 
 rule-providers:
