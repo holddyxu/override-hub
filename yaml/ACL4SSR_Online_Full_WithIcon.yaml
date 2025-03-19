@@ -674,3 +674,5 @@ rules:
   - "RULE-SET,Download,全球直连"
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
+  - "DOMAIN-SUFFIX,fsm.name,节点选择"
+  - "DOMAIN-SUFFIX,nodeseek.com,节点选择"
