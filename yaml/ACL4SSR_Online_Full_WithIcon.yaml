@@ -676,3 +676,6 @@ rules:
   - "MATCH,漏网之鱼"
   - "DOMAIN-SUFFIX,fsm.name,节点选择"
   - "DOMAIN-SUFFIX,nodeseek.com,节点选择"
+  - "DOMAIN-SUFFIX,imgbox.com,节点选择"
+  - "DOMAIN-SUFFIX,pixhost.to,节点选择"
+  - "DOMAIN-SUFFIX,gifyu.com,节点选择"
